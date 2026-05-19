@@ -104,7 +104,7 @@ export const translations = {
       }
     ],
     leadership: [
-      "Technical Director of the Beseda u Bigbítu music festival, responsible for technical production coordination and crew management.",
+      "Technical Director of the Beseda u Bigbítu music festival (besedaubigbitu.cz), responsible for technical production coordination and crew management.",
       "Previously involved in technical production and volunteer coordination for major Czech cultural events and festivals.",
       "Personal interest in embedded hardware and IoT systems using Arduino, Raspberry Pi, and ESP32 platforms."
     ],
@@ -130,7 +130,7 @@ export const translations = {
       summary: "Shrnutí",
       experience: "Zkušenosti",
       education: "Vzdělání",
-      leadership: "Vedení a zájmy"
+      leadership: "Zájmy"
     },
     summaryContent: "Full-Stack vývojář a Tech Lead s více než 8 lety zkušeností s budováním podnikových a průmyslových softwarových řešení pomocí technologií Angular a .NET. V posledních letech jsem se intenzivně věnoval real-time systémům v oblasti energetiky, zpracování telemetrie a integraci hardwaru se softwarem. Mám zkušenost s řízením a realizací projektů v jejich celém rozsahu – od úvodní byznys analýzy a návrhu architektury až po finální nasazení a dlouhodobou údržbu.",
     skills: {
@@ -219,7 +219,7 @@ export const translations = {
       }
     ],
     leadership: [
-      "Technický ředitel hudebního festivalu Beseda u Bigbítu, zodpovědný za koordinaci technické produkce a správu týmu.",
+      "Technický ředitel hudebního festivalu Beseda u Bigbítu (besedaubigbitu.cz), zodpovědný za koordinaci technické produkce a správu týmu.",
       "Dříve zapojen do technické produkce a koordinace dobrovolníků pro významné české kulturní akce a festivaly.",
       "Osobní zájem o vestavěný hardware a IoT systémy využívající platformy Arduino, Raspberry Pi a ESP32."
     ],

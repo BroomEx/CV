@@ -51,6 +51,16 @@
           }
         </ul>
       </section>
+
+      <section>
+        <h2>{{ t().sections.education }}</h2>
+        @for (item of t().educationItems; track $index) {
+          <div class="education-item">
+            <h3>{{ item.degree }}</h3>
+            <p class="school">{{ item.school }}</p>
+          </div>
+        }
+      </section>
     </aside>
 
     <div class="cv-main">
@@ -74,16 +84,6 @@
               }
             </ul>
             <p class="tech-used"><strong>Technologies:</strong> {{ item.tech }}</p>
-          </div>
-        }
-      </section>
-
-      <section>
-        <h2>{{ t().sections.education }}</h2>
-        @for (item of t().educationItems; track $index) {
-          <div class="education-item">
-            <h3>{{ item.degree }}</h3>
-            <p class="school">{{ item.school }}</p>
           </div>
         }
       </section>
