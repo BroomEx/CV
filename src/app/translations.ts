@@ -132,7 +132,7 @@ export const translations = {
       education: "Vzdělání",
       leadership: "Vedení a zájmy"
     },
-    summaryContent: "Full-Stack vývojář a Tech Lead s více než 8 lety zkušeností s budováním podnikových a průmyslových softwarových řešení pomocí technologií Angular a .NET. V posledních letech jsem se intenzivně věnoval real-time systémům v oblasti energetiky, zpracování telemetrie a integraci hardwaru se softwarem. Mám zkušenost s řízením a realizací projektů v jejich celém rozsahu – od úvodní byznys analýzy a návrhu architektury až po finální nasazení a dlouhodobou údržbu. Mám silné zázemí v systémech kritické infrastruktury, distribuovaném energetickém managementu a vývoji vlastních vestavěných zařízení.",
+    summaryContent: "Full-Stack vývojář a Tech Lead s více než 8 lety zkušeností s budováním podnikových a průmyslových softwarových řešení pomocí technologií Angular a .NET. V posledních letech jsem se intenzivně věnoval real-time systémům v oblasti energetiky, zpracování telemetrie a integraci hardwaru se softwarem. Mám zkušenost s řízením a realizací projektů v jejich celém rozsahu – od úvodní byznys analýzy a návrhu architektury až po finální nasazení a dlouhodobou údržbu.",
     skills: {
       core: "Angular, TypeScript, .NET / ASP.NET Core, C#, MSSQL, REST APIs, SignalR, Entity Framework Core, Blazor",
       cloud: "Azure, Redis, RabbitMQ, Git",
