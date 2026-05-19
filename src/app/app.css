@@ -1,0 +1,218 @@
+.cv-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: left;
+  background: var(--bg);
+  min-height: 100vh;
+  position: relative;
+}
+
+.lang-switcher {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  gap: 8px;
+}
+
+.lang-switcher button {
+  background: var(--social-bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.lang-switcher button.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.lang-switcher button:hover:not(.active) {
+  background: var(--accent-bg);
+}
+
+.cv-header {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 32px;
+  margin-bottom: 40px;
+}
+
+.cv-header h1 {
+  margin: 0;
+  font-size: 48px;
+  color: var(--text-h);
+}
+
+.cv-header .title {
+  font-size: 24px;
+  color: var(--accent);
+  margin: 24px 0 16px;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.contact-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.contact-info a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: var(--accent);
+}
+
+.cv-content {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 60px;
+}
+
+@media (max-width: 800px) {
+  .cv-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.cv-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cv-sidebar h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.skill-category {
+  margin-bottom: 20px;
+}
+
+.skill-category h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--text-h);
+  margin: 0 0 8px;
+  font-weight: 600;
+}
+
+.skill-category p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.language-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.language-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.leadership-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.leadership-list li {
+  font-size: 14px;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.cv-main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.cv-main section h2 {
+  font-size: 22px;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.experience-item, .education-item {
+  margin-bottom: 24px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 4px;
+}
+
+.experience-header h3 {
+  margin: 0;
+  flex: 1;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+.experience-header .company {
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.education-item h3 {
+  margin: 0 0 4px;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+.experience-item .date, .education-item .school {
+  font-size: 14px;
+  color: var(--accent);
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
+.experience-item ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experience-item li {
+  margin-bottom: 8px;
+}
+
+.tech-used {
+  font-size: 14px;
+  margin-top: 12px;
+  color: var(--text);
+  background: var(--social-bg);
+  padding: 8px 12px;
+  border-radius: 6px;
+}

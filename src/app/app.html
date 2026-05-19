@@ -1,0 +1,92 @@
+<div class="cv-container">
+  <div class="lang-switcher">
+    <button [class.active]="lang() === 'en'" (click)="setLang('en')">EN</button>
+    <button [class.active]="lang() === 'cs'" (click)="setLang('cs')">CZ</button>
+  </div>
+
+  <header class="cv-header">
+    <h1>{{ t().name }}</h1>
+    <p class="title">{{ t().title }}</p>
+    <div class="contact-info">
+      <span>📧 {{ t().contact.email }}</span>
+      <span>📱 {{ t().contact.phone }}</span>
+      <span>📍 {{ t().contact.location }}</span>
+      <span>🔗 <a [href]="'https://' + t().contact.linkedin" target="_blank" rel="noreferrer">{{ t().contact.linkedin }}</a></span>
+      <span>💻 <a [href]="'https://' + t().contact.github" target="_blank" rel="noreferrer">{{ t().contact.github }}</a></span>
+    </div>
+  </header>
+
+  <main class="cv-content">
+    <aside class="cv-sidebar">
+      <section>
+        <h2>{{ t().sections.techStack }}</h2>
+        <div class="skill-category">
+          <h3>Core Technologies</h3>
+          <p>{{ t().skills.core }}</p>
+        </div>
+        <div class="skill-category">
+          <h3>Cloud & Infrastructure</h3>
+          <p>{{ t().skills.cloud }}</p>
+        </div>
+        <div class="skill-category">
+          <h3>Industrial & Embedded</h3>
+          <p>{{ t().skills.industrial }}</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>{{ t().sections.languages }}</h2>
+        <ul class="language-list">
+          <li>{{ t().langNames.cs }}</li>
+          <li>{{ t().langNames.en }}</li>
+          <li>{{ t().langNames.de }}</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>{{ t().sections.leadership }}</h2>
+        <ul class="leadership-list">
+          @for (item of t().leadership; track $index) {
+            <li>{{ item }}</li>
+          }
+        </ul>
+      </section>
+    </aside>
+
+    <div class="cv-main">
+      <section>
+        <h2>{{ t().sections.summary }}</h2>
+        <p>{{ t().summaryContent }}</p>
+      </section>
+
+      <section>
+        <h2>{{ t().sections.experience }}</h2>
+        @for (item of t().experienceItems; track $index) {
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>{{ item.title }}</h3>
+              <span class="company">{{ item.company }}</span>
+            </div>
+            <p class="date">{{ item.date }}</p>
+            <ul>
+              @for (h of item.highlights; track $index) {
+                <li>{{ h }}</li>
+              }
+            </ul>
+            <p class="tech-used"><strong>Technologies:</strong> {{ item.tech }}</p>
+          </div>
+        }
+      </section>
+
+      <section>
+        <h2>{{ t().sections.education }}</h2>
+        @for (item of t().educationItems; track $index) {
+          <div class="education-item">
+            <h3>{{ item.degree }}</h3>
+            <p class="school">{{ item.school }}</p>
+          </div>
+        }
+      </section>
+    </div>
+  </main>
+</div>
