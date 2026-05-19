@@ -7,7 +7,7 @@ export const translations = {
       phone: "+420 774 399 014",
       location: "Prague, Czech Republic",
       linkedin: "linkedin.com/in/pavel-dytrych",
-      github: "github.com/dytrychpav"
+      github: "github.com/BroomEx"
     },
     sections: {
       techStack: "Core Skills",
@@ -122,7 +122,7 @@ export const translations = {
       phone: "+420 774 399 014",
       location: "Praha, Česká republika",
       linkedin: "linkedin.com/in/pavel-dytrych",
-      github: "github.com/dytrychpav"
+      github: "github.com/BroomEx"
     },
     sections: {
       techStack: "Klíčové dovednosti",
@@ -132,7 +132,7 @@ export const translations = {
       education: "Vzdělání",
       leadership: "Vedení a zájmy"
     },
-    summaryContent: "Senior Full-Stack vývojář a Tech Lead s více než 8 lety zkušeností s budováním podnikových a průmyslových softwarových řešení pomocí technologií Angular a .NET. Specializuji se na systémy v reálném čase, energetickou infrastrukturu, telemetrii a integraci hardwaru a softwaru. Mám zkušenosti s vedením projektů od architektury a byznys analýzy až po nasazení a dlouhodobou údržbu. Silné zázemí v systémech kritické infrastruktury, distribuovaném energetickém managementu a vývoji vlastních vestavěných zařízení.",
+    summaryContent: "Full-Stack vývojář a Tech Lead s více než 8 lety zkušeností s budováním podnikových a průmyslových softwarových řešení pomocí technologií Angular a .NET. V posledních letech jsem se intenzivně věnoval real-time systémům v oblasti energetiky, zpracování telemetrie a integraci hardwaru se softwarem. Mám zkušenost s řízením a realizací projektů v jejich celém rozsahu – od úvodní byznys analýzy a návrhu architektury až po finální nasazení a dlouhodobou údržbu. Mám silné zázemí v systémech kritické infrastruktury, distribuovaném energetickém managementu a vývoji vlastních vestavěných zařízení.",
     skills: {
       core: "Angular, TypeScript, .NET / ASP.NET Core, C#, MSSQL, REST APIs, SignalR, Entity Framework Core, Blazor",
       cloud: "Azure, Redis, RabbitMQ, Git",
