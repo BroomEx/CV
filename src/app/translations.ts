@@ -111,7 +111,7 @@ export const translations = {
     langNames: {
       cs: "Czech - Native",
       en: "English - Professional proficiency",
-      de: "German - Basic (A2)"
+      de: "German - Basic (A1)"
     }
   },
   cs: {
@@ -226,7 +226,7 @@ export const translations = {
     langNames: {
       cs: "Čeština - Rodilý mluvčí",
       en: "Angličtina - Profesionální úroveň",
-      de: "Němčina - Základy (A2)"
+      de: "Němčina - Základy (A1)"
     }
   }
 };
