@@ -36,7 +36,7 @@ export const translations = {
       {
         title: "Tech Lead / Senior Full-Stack Developer",
         company: "Siesta Labs",
-        date: "2021 – Present",
+        date: "2021 – September 2026",
         highlights: [
           "Leading development of energy management platforms integrated with the Czech national grid operator (ČEPS).",
           "Responsible for system architecture, business analysis, backend and frontend development, and long-term platform maintenance.",
@@ -160,7 +160,7 @@ export const translations = {
       {
         title: "Tech Lead / Senior Full-Stack Vývojář",
         company: "Siesta Labs",
-        date: "2021 – Současnost",
+        date: "2021 – Září 2026",
         highlights: [
           "Vedení vývoje platforem pro energetický management integrovaných s ČEPS.",
           "Odpovědnost za architekturu systému, byznys analýzu, vývoj backendu i frontendu a dlouhodobou údržbu platformy.",
