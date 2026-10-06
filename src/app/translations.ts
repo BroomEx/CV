@@ -25,6 +25,15 @@ export const translations = {
     },
     experienceItems: [
       {
+        title: "Solution Architect / Business Analyst",
+        company: "Trask",
+        date: "September 2026 – Present",
+        highlights: [
+          "Specialized in electricity grid flexibility."
+        ],
+        tech: ""
+      },
+      {
         title: "Tech Lead / Senior Full-Stack Developer",
         company: "Siesta Labs",
         date: "2021 – Present",
@@ -139,6 +148,15 @@ export const translations = {
       industrial: "Modbus, IEC 60870-5-104, ARM / AVR, LoRaWAN"
     },
     experienceItems: [
+      {
+        title: "Solution architekt / Business analytik",
+        company: "Trask",
+        date: "Září 2026 – současnost",
+        highlights: [
+          "Specializace na flexibilitu elektrické sítě."
+        ],
+        tech: ""
+      },
       {
         title: "Tech Lead / Senior Full-Stack Vývojář",
         company: "Siesta Labs",
